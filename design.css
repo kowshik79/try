@@ -1,0 +1,666 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*{font-family: 'Roboto', sans-serif;}
+section {
+    padding: 36px 0px;
+}
+
+.container {
+    width: 1131px;
+    margin: auto;
+    padding-left: 15;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+
+
+.nev {
+    border-bottom: 9px solid gray;
+}
+.imgdiv {
+    width: 182px;
+    float: left;
+    padding: 0px 8px 0px 70px;
+}
+
+.nav {
+    overflow: hidden;
+    transition: 0.3s;
+   
+}
+
+.listmenu {
+    width: auto;
+    float: left;
+    margin-left: 259px;
+    padding: 7px;
+}
+
+.listmenu ul {
+    list-style: none;
+    
+}
+
+.listmenu ul li {
+    float: left;
+    font-size: 24px;
+    margin: 11px;
+    color: #ff6347;
+}
+
+.listmenu ul li:hover {
+    color: black;
+}
+
+
+
+.listmenu ul li::after {
+    content: "";
+    display: block;
+    background: #000000;
+    height: 5px;
+    width: 0%;
+    transition: 1s;
+}
+
+ul li:hover::after {
+    width: 100%;
+}
+
+
+.left {
+    width: 500px;
+    float: left;
+    padding: 33px;
+}
+
+.left p {
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 3px;
+    margin-bottom: 28px;
+}
+
+
+
+
+.left>h2 {
+    font-size: 55px;
+}
+
+.left>h2>span {
+    color: tomato;
+}
+
+.rightimage {
+    width: 511px;
+    float: left;
+}
+
+.rightimage img {
+    width: 100%;
+}
+
+
+.myimage {
+    width: 397px;
+    float: left;
+}
+
+.myimage img {
+    width: 100%;
+    margin-top: 34px;
+    height: 375px;
+    border-top: 13px solid tomato;
+    border-left: 13px solid tomato;}
+
+.aboutmyself {
+    width: 562px;
+    float: left;
+    margin-left: 77px;
+    padding: 47px;
+}
+
+.aboutmyself>h3 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.aboutmyself>p {
+    color: gray;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.address >ul >li {
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.button .profile {
+    padding: 10px 10px;
+    font-size: 19px;
+    background: tomato;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    border: 2px solid tomato;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 29px;
+    transition: 1.3s;
+}
+button.profile:hover {
+    background: white;
+    color: tomato;
+    border: 2px dashed tomato;
+}
+
+
+
+button.haireme {
+    padding: 10px 10px;
+    font-size: 19px;
+    background: tomato;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    border: 2px solid tomato;
+    border-radius: 7px;
+    transition: 1.3s;
+}
+button.haireme:hover {
+    background: white;
+    color: tomato;
+    border: 2px dashed tomato;
+}
+
+section.leftright {
+    border-bottom: 5px solid #8c8c8c;
+}
+
+
+button.profile:hover {
+    cursor: pointer;
+}
+
+button.haireme:hover {
+    cursor: pointer;
+    background:  white ;
+    color: tomato;
+}
+
+section.aboutme {
+    background: #cef1d7;
+}
+
+section.SERVICES {
+    background: #c2efc0;
+}
+
+
+
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 60px;
+}
+
+.title:after {
+    background: red;
+    width: 89px;
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid tomato;
+    margin: auto;
+    margin-left: -46px;
+    margin-top: -61px;
+}
+
+.hfour {
+    margin-top: 11px !important;
+    width: 728px;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #908d8d;
+}
+.title h1 {
+    font-size: 30px;
+}
+
+
+
+.threewraper {
+    width: 1303px;
+    margin-top: 50px;
+}
+
+.threesinngle {
+    float: left;
+    margin: 37px 43px 3px 20px;
+    overflow: hidden;
+    width: 346px;
+}
+
+.threesinngle:last-child {
+    margin-right: 0px;
+    width: 372px;
+}
+
+.threesinngle:nth-child(2) {
+    width: 252px;
+    margin-top: -47px;
+}
+
+.singlethree {
+    overflow: hidden;
+    margin-bottom: 37px;
+    transition: 0.3s;
+}
+
+.threeicon {
+    width: 57px;
+    border: 1px solid #040404;
+    text-align: center;
+    height: 54px;
+    float: right;
+    transition: 0.3s;
+}
+
+.threeicon i {
+    margin-top: 12px;
+    font-size: 31px;
+}
+
+.threecontant {
+    float: right;
+    width: 285px;
+    height: 113px;
+}
+
+.threecontant h3 {
+    font-size: 23px;
+    margin-bottom: 1px;
+    letter-spacing: 1px;
+    word-spacing: 11px;
+    font-weight: 700;
+    float: left;
+    margin-right: 20px;
+}
+
+.threecontant span {
+    float: left;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.singlethree:hover .threeicon {
+    background: black;
+    color: white;
+}
+
+.singlethreeu {
+    overflow: hidden;
+    margin-bottom: 37px;
+    transition: 0.3s;
+}
+
+.threeiconu {
+    width: 57px;
+    border: 1px solid #040404;
+    text-align: center;
+    height: 54px;
+    float: left;
+    transition: 0.3s;
+}
+
+.threecontantu {
+    float: right;
+    width: 304px;
+    height: 113px;
+    margin-left: 7px;
+}
+
+.threecontantu h3 {
+    font-size: 23px;
+    margin-bottom: 1px;
+    letter-spacing: 1px;
+    word-spacing: 11px;
+    font-weight: 700;
+}
+
+.threecontantu span {
+    float: right;
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.threeiconu i {
+    margin-top: 12px;
+    font-size: 31px;
+}
+
+.singlethreeu:hover .threeiconu {
+    background: black;
+    color: white;
+}
+
+section.Pricing {
+    background: #efdeff;
+}
+.pricesingle {
+    width: 359px;
+    float: left;
+    margin: 1px 9px;
+    background: #f7f7f7;
+}
+.heading {
+    background: white;
+    padding: 30px;
+    text-align: center;
+}
+.heading h2 {
+    font-size: 30px;
+}.heading p {
+    font-size: 13px;
+    color: gray;
+    margin-top: -1px;
+}.pricerate {
+    padding: 30px;
+    background: #54e5dc;
+    text-align: center;
+    color: white;
+}
+.priceul ul li {
+    list-style: none;
+    padding: 21px 10px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.pricerate h1 span {
+    font-size: 19px;
+    margin-right: 4px;
+}
+.priceul {
+    text-align: center;
+}
+.priceul ul li:nth-child(odd) {
+    background: #fffdfd;}
+
+.pricebutton {
+    background: white;
+    padding: 38px;
+}
+.pricebutton button {
+    outline: none;
+    font-size: 20px;
+    padding: 12px 35px;
+    margin: auto;
+    text-align: center;
+    margin-left: 32px;
+    background: #54e5dc;
+    border: 1px solid #54e5dc;
+    border-radius: 16px;
+    color: white;
+    transition: 0.3s;
+}
+.pricebutton button:hover {
+    color: #54e5dc;
+    background: rgb(2, 2, 2);
+    border: 1px solid #54e5dc;
+}
+
+
+
+section.fot {
+    background: #c4c3c3;
+    padding: 79px 0px 0px;
+}
+
+.leftooter {
+    width: 616px;
+    float: left;
+}
+
+.contact {
+    padding: 0px 0px 0px 30px;
+}
+
+.contacticon {
+    padding: 17px 0px 0px 30px;
+}
+
+.contact h2 {
+    margin: 0px 0px 24px 0px;
+    font-size: 28px;
+}
+
+.contact p {
+    
+line-height: 22px;
+    
+margin-bottom: 24px;
+}
+
+
+.contsingle {
+    width: 500px;
+    margin-bottom: 29px;
+}
+
+.cicon {
+    width: 72px;
+    height: 72px;
+    background: skyblue;
+    float: left;
+    border-radius: 38px;
+}
+
+.cicon i {
+    padding: 20px 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.icondetels {
+    width: 369px;
+    margin-left: 128px;
+}
+
+.icondetels h3 {
+    font-size: 26px;
+    margin-bottom: 7px;
+}
+
+.icondetels p {
+    font-size: 20px;
+}
+
+.right {
+float: right;
+width: 471px;
+padding: 20px;
+}
+
+
+.mainfotter {
+background: #87ceeb;
+}
+.socila h3 {
+text-align: center;
+color: white;
+font-size: 35px;
+margin: 36px 20px;
+}
+
+.socialicon {
+width: 694px;
+margin: auto;
+margin-bottom: 157px;
+}
+
+.socialicon ul li {
+list-style: none;
+float: left;
+padding: 20px;
+border: 2px dashed;
+margin: 10px 10px;
+color: white;
+font-size: 25px;
+width: 20px;
+height: 20px;
+border-radius: 12px;
+}
+
+
+
+li.dribble {
+background: #ea4c89;
+transition: 1.3s;
+}
+li.dribble:hover {
+color: #ea4c89;
+background: white;
+}
+
+li.instragram {
+background: #3f729b;
+transition: 1.3s;
+}
+li.instragram:hover {
+color: #3f729b;
+background:white
+}
+
+
+li.flickr {
+background: #ff0084;
+transition: 1.3s;
+}
+li.flickr:hover {
+color: #ff0084;
+background: white;
+}
+
+
+li.google {
+background: #0F9D58;
+transition: 1.3s;
+}
+li.google:hover {
+color: #0F9D58;
+background: white;
+}
+
+
+li.pin {
+background: #E60023;
+transition: 1.3s;
+}
+li.pin:hover {
+color: #E60023;
+background: white;
+}
+
+
+li.lonkdin {
+background: #0072b1;
+transition: 1.3s;
+}
+li.lonkdin:hover {
+color: #0072b1;
+background: white
+;
+}
+
+li.twiter {
+background: #00acee;
+transition: 1.3s;
+}
+li.twiter:hover {
+color: #00acee;
+background:white;
+}
+
+
+li.facebook {
+background: #3b5998;
+transition: 1.3s;
+}
+li.facebook:hover {
+color: #3b5998;
+background: white;
+}section.Pricing {
+    background: #efdeff;
+}
+
+
+
+
+.massage {
+    padding: 0px 0px 35px 9px;
+    margin-top: -23px;
+}
+
+.massage h2 {
+font-size: 28px;
+}
+
+input.name {
+    padding: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    margin-bottom: 31px;
+    width: 480px;
+    padding-left: 29px;
+    border: none;
+    outline-color: #00b5ff;
+}
+
+textarea.massagebox {
+    padding: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    padding-left: 29px;
+    border: none;
+    height: 103px;
+    width: 489px;
+    outline-color: #04b6ff;
+}
+
+.massagebutton button {
+    padding: 11px 20px;
+    margin-top: 28px;
+    font-size: 20px;
+    background: skyblue;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    border: none;
+    transition: 0.3s;}
+
+.massagebutton button:hover {
+background: black;
+transition: 0.3s;
+}
+
+
